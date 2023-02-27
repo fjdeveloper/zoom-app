@@ -17,8 +17,7 @@ const config = {
 			// if `edge` is true, this option cannot be used
 			split: false
 		})
-	},
-	preprocess: vitePreprocess()
+	}
 };
 
 export default config;

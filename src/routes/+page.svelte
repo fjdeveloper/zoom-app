@@ -12,16 +12,17 @@
 	>
 		<div class="flex flex-col items-center space-y-3">
 			<div>
-				<label for="email" class="font-bold">Email:</label>
 				<input
 					type="email"
 					name="email"
 					class="rounded-xl"
-					placeholder="type your email"
+					placeholder="Type your email"
 					bind:value={e}
 				/>
 			</div>
-			<button type="submit" class="bg-blue-500 text-white p-2 px-3 rounded-xl hover:bg-blue-600"
+			<button
+				type="submit"
+				class="bg-blue-500 text-black p-2 px-3 rounded-xl hover:bg-blue-600 hover:text-white"
 				>Submit</button
 			>
 		</div>
